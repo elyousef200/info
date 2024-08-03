@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    background-color: rgb(42, 42, 159);
+}
+
+table{
+    width: 100%;
+    margin-top: 200px;
+    height: 100px;
+}
+
+caption{
+    margin-bottom: 50px;
+    color: black;
+    background-color: #393333;
+    width: 600px;
+    margin-left: 450px;
+    font-size: 50px;
+    border-top: rgb(117, 117, 137) solid;
+    border-left: rgb(117, 117, 137) solid;
+    border-right: rgb(20, 20, 39) solid;
+    border-bottom: rgb(20, 20, 39) solid;
+}
+input{
+    
+    font-size: 30px;
+    background-color: #342d79;
+    box-shadow: 0px 15px 25px rgb(#393333);
+}
+::placeholder{
+    font-size: 20px;
+    text-align: center;
+}
+
+.sign{
+    font-size: 40;
+    margin-left: 700px;
+    box-shadow: 0px 15px 25px rgb(1 1 1);
+    border-radius: 30%;
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: 0.7s ease;
+}
+
+.sign :hover{
+    font-size: 45px;
+    
+}
+ 
+label{
+    color: rgb(38, 35, 35);
+    font-size: 30px;
+    text-align: center;
+}
+
+ .remembering{
+    margin: 30px 150px;
+    box-shadow: 0px 15px 25px rgb(1 1 1);
+    width: 160px;
+    text-align: center;
+    font-size: 20px;
+    color: #efefef;
+
+}
+
+@media(max-width:1023px){
+.form{
+    width:100%
+
+}
+.input{
+    text-align: center;
+}
+
+}
+
+@media(max-width:400px){
+
+    .table{
+        width: 0px;
+    }
+
+}
+
+@media(max-width:286px){
+    table{
+        width: 20px;
+    }
+}
+
+
